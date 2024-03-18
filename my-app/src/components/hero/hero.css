@@ -1,0 +1,13 @@
+#heroSection {
+    text-align: center;
+    letter-spacing: 5px;
+}
+.heroTitle {
+    font-size: 40px;
+}
+.cityTitle{
+    font-size: 20px;
+}
+.stateTitle{
+    font-size: 20px;
+}
