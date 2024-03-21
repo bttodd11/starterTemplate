@@ -1,16 +1,21 @@
-import React from 'react';
+import {React, useState} from 'react';
 import "../content/content.css"
 
 const Content = () => {
 
+   let [currentContent, setCurrentContent] = useState("")
    // We need to have a on click method that determines which component to render
+console.log(1)
    return(
-      <div className='contentSection'>
+      <div id='contentSection'>
          <div className='headers'>
-            <span className='headerTitle'>Projects</span>
-            <span className='headerTitle'>Skills</span>
-            <span className='headerTitle'>Experience</span>
-            <span className='headerTitle'>Contact</span>
+            <a href='#test' onClick={(e) => setCurrentContent("Projects")}><span className='headerTitle'>Projects</span></a>
+            <a href='#test' onClick={(e) => setCurrentContent("Skills")}><span className='headerTitle'>Skills</span></a>
+            <a href='' onClick={(e) => setCurrentContent("Experience")}><span className='headerTitle'>Experience</span></a>
+            <a href='' onClick={(e) => setCurrentContent("Contact")}><span className='headerTitle'>Contact</span></a>
+         </div>
+         <div className='currentContent'>
+
          </div>
       </div>
    )

@@ -1,3 +1,11 @@
+a{
+    text-decoration: none;
+}
+.headers {
+    text-align: center;
+    margin-top: 7%;
+}
 .headerTitle {
     font-size: 30px;
+    margin: 0 5% 0 5%;
 }
