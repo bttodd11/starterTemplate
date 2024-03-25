@@ -1,15 +1,13 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { ExperienceWrapper } from './experience.styled';
 
-const Experience = () => (
- <ExperienceWrapper>
-    Experience Component
- </ExperienceWrapper>
-);
+const Experience = () => {
+return (
+   <div>
+ <p id='contentTitle'>Experience</p>
 
-Experience.propTypes = {};
+   </div>
+)
+};
 
-Experience.defaultProps = {};
 
 export default Experience;

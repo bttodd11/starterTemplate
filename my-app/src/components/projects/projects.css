@@ -1,0 +1,17 @@
+.projectPlaceHolder {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-bottom: 15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projectSubTitle {
+  text-align: left;
+  display: inline;
+}
+
+.projectText {
+    text-align: left;
+}

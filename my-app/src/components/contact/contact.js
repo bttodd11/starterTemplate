@@ -1,15 +1,12 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { ContactWrapper } from './contact.styled';
 
-const Contact = () => (
- <ContactWrapper>
-    Contact Component
- </ContactWrapper>
-);
+const Contact = () => {
+return(
+   <div>
+   <p id='contentTitle'>Contact</p>
+   </div>
+)
+}
 
-Contact.propTypes = {};
-
-Contact.defaultProps = {};
 
 export default Contact;
