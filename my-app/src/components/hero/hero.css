@@ -4,6 +4,7 @@
 }
 .heroTitle {
     font-size: 40px;
+    text-align: center;
 }
 .cityTitle{
     font-size: 20px;
@@ -15,6 +16,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 75%;
+    height: 75%;
     margin-top: 5%;
     --shadow-color: hsl(220deg 60% 50%);
     border-radius: 10px;

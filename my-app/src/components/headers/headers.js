@@ -1,5 +1,6 @@
 import {React, useState} from 'react';
 import Content from '../content/content';
+import '../headers/headers.css';
 
 
 const Headers = () => {
@@ -14,7 +15,6 @@ const Headers = () => {
          <a href='#Experience' onClick={(e) => setCurrentSection("Experience")}><span className='headerTitle'>Experience</span></a>
          <a href='#Contact' onClick={(e) => setCurrentSection("Contact")}><span className='headerTitle'>Contact</span></a>
       </div>
-
       <div id='contentSection' className='box'>
          <Content section={{currentSection}}/>
       </div>
