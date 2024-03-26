@@ -1,3 +1,15 @@
 .skillWrapper {
     padding-bottom: 10%;
 }
+
+.skillsLabel {
+    text-align: left;
+    padding-left: 3%;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.skillsText {
+    font-size: 10px;
+}
