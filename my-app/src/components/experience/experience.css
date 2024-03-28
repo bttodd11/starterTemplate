@@ -1,0 +1,21 @@
+.companyLogo {
+    float: left;
+    margin-right: 5%;
+}
+.companyText {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+}
+.experienceText {
+    text-align: left;
+    font-size: 8px;
+}
+.imageDiv {
+    width: 100%;
+}
+.companyContainer {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 5%;
+}
