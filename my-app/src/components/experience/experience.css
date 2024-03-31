@@ -1,15 +1,8 @@
-dd {
-    font-size: 8px;
-}
-dl {
-    width: 60%;
-    float: right;
-    text-align: left;
-}
+
 .companyLogo {
     float: left;
     margin-right: 5%;
-    margin-left: 5%;
+    margin-left: 10%;
     margin-top: 5%;
 }
 .companyText {
@@ -32,4 +25,17 @@ dl {
 }
 .imageContainer {
     display: block;
+}
+.exp {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+
+  
+
+
+
 }

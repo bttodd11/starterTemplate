@@ -21,3 +21,18 @@
     letter-spacing: 10px;
     margin-bottom: 20%;
 }
+
+/* Desktop */
+@media (min-width: 992px) {
+    #contentSection {
+        padding-top: 5%;
+    }
+    #contentTitle{
+        font-size: 35px;
+        letter-spacing: 10px;
+        margin-bottom: 5%;
+    }
+
+
+
+}

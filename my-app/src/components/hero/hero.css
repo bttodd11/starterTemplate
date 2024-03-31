@@ -28,3 +28,21 @@
       1px 2px 8px var(--shadow-color)
     )
 }
+
+/* Desktop */
+@media (min-width: 992px) {
+
+    .heroTitle {
+        padding-top: 3%;
+    }
+    .portfolioImage {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 35%;
+        height: 35%;
+        margin-top: 2%;
+        --shadow-color: hsl(220deg 60% 50%);
+        border-radius: 10px;
+    }
+}

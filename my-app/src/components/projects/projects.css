@@ -28,3 +28,24 @@
   margin-right: auto;
   margin-left: auto;
 }
+
+/* Desktop */
+@media (min-width: 992px) {
+
+  .projectContainer {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .projectPlaceHolder {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin-bottom: 15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+}

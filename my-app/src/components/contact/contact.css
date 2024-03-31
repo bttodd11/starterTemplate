@@ -1,4 +1,16 @@
-import styled from 'styled-components';
+.socialIcons {
+    height: 25px;
+    width: 25px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 20%;
+}
 
-export const ContactWrapper = styled.div`
-`;
+/* Desktop */
+@media (min-width: 992px) {
+
+  
+
+
+
+}

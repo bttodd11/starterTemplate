@@ -4,3 +4,26 @@
 .headerTitle {
     font-size: 16px;
 }
+
+/* Desktop */
+@media (min-width: 992px) {
+
+    .headers {
+        margin-top: 3%;
+    }
+    .headerTitle {
+        font-size: 20px;
+        letter-spacing: 10px;
+        font-weight: bolder;
+    }
+    
+    a {
+        color: black;
+    }
+    a :hover {
+        color: black;
+    }
+    a :visited {
+        color: black;
+    }
+}
