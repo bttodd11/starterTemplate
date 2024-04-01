@@ -4,7 +4,6 @@
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5%;
-    --shadow-color: hsl(220deg 60% 50%);
     border-radius: 10px;
     margin-bottom: 5%;
     padding-top: 10%;
@@ -20,17 +19,19 @@
     font-size: 35px;
     letter-spacing: 10px;
     margin-bottom: 20%;
+    text-align: center;
 }
 
 /* Desktop */
 @media (min-width: 992px) {
     #contentSection {
         padding-top: 5%;
+        text-align: left;
     }
     #contentTitle{
-        font-size: 35px;
+        font-size: 45px;
         letter-spacing: 10px;
-        margin-bottom: 5%;
+        margin-bottom: 3%;
     }
 
 

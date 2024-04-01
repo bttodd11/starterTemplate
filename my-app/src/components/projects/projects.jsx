@@ -10,19 +10,19 @@ const Projects = () => {
         <div class="container-fluid text-center">
           <div class="row projectContainer">
             <div class="col-sm-12 col-md-12 project">
-               <p>Title of Project</p>
+               <p className="projectTitle">Title of Project</p>
                <img src={ImagePlaceHolder} className='projectPlaceHolder' /> 
                <p className="projectSubTitle">Description : </p><span className="projectText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat erat a consequat dictum. Morbi non quam lobortis, aliquet dolor non, facilisis sem. Mauris molestie neque sit amet viverra porttitor. Nullam sodales hendrerit purus, et fringilla purus gravida quis. Vestibulum ac aliquam quam. Mauris euismod enim sit amet sem fringilla.</span>
             </div>
             <div id="divider"></div>
             <div class="col-sm-12 col-md-12 project">
-            <p>Title of Project</p>
+            <p className="projectTitle">Title of Project</p>
                <img src={ImagePlaceHolder} className='projectPlaceHolder' /> 
                <p className="projectSubTitle">Description : </p><span className="projectText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat erat a consequat dictum. Morbi non quam lobortis, aliquet dolor non, facilisis sem. Mauris molestie neque sit amet viverra porttitor. Nullam sodales hendrerit purus, et fringilla purus gravida quis. Vestibulum ac aliquam quam. Mauris euismod enim sit amet sem fringilla.</span>
             </div>
             <div id="divider"></div>
             <div class="col-sm-12 col-md-12 project">
-            <p>Title of Project</p>
+            <p className="projectTitle">Title of Project</p>
                <img src={ImagePlaceHolder} className='projectPlaceHolder' /> 
                <p className="projectSubTitle">Description : </p><span className="projectText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat erat a consequat dictum. Morbi non quam lobortis, aliquet dolor non, facilisis sem. Mauris molestie neque sit amet viverra porttitor. Nullam sodales hendrerit purus, et fringilla purus gravida quis. Vestibulum ac aliquam quam. Mauris euismod enim sit amet sem fringilla.</span>
             </div>

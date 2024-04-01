@@ -14,8 +14,14 @@
   display: inline;
 }
 .projectText {
-    text-align: left;
+    /* text-align: left; */
 }
+.projectTitle {
+  font-size: 25px;
+  letter-spacing: 10px;
+  font-weight: 600;
+}
+
 .project {
   margin-top: 5%;
   margin-bottom: 5%;
@@ -33,7 +39,7 @@
 @media (min-width: 992px) {
 
   .projectContainer {
-    width: 50%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
   }
