@@ -15,7 +15,7 @@
     font-size: 10px;
 }
 
-.logos{
+.logos {
     display: none;
 }
 
@@ -25,18 +25,21 @@
     .skillsLabel {
         text-align: left;
         padding-left: 3%;
-        font-size: 25px;
+        font-size: 20px;
         font-weight: bold;
         line-height: 50px;
     }
+
     .skillsText {
         font-size: 18px;
     }
+
     .skills {
         width: 60%;
         display: inline-block;
         vertical-align: middle;
     }
+
     .logos {
         width: 40%;
         display: inline-block;
@@ -44,10 +47,11 @@
         text-align: right;
         padding-right: 5%;
     }
-    .skillsIcons{
+
+    .skillsIcons {
         width: 100px;
         height: 100px;
-        margin-left: 3%;
-        margin-right: 3%;
+        margin-left: 8%;
+        margin-right: 8%;
     }
 }

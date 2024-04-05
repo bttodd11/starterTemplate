@@ -39,26 +39,26 @@ const Skills = () => {
         <div className="row justify-content-end">
           <div className="col-12">
             <span>
-              <img src={Angular} className="skillsIcons" />
+              <img src={Angular} className="skillsIcons" alt="Angular Icon"/>
             </span>
             <span>
-              <img src={ReactLogo} className="skillsIcons" />
-            </span>
-          </div>
-          <div className="col-12">
-            <span>
-              <img src={Java} className="skillsIcons" />
-            </span>
-            <span>
-              <img src={Python} className="skillsIcons" />
+              <img src={ReactLogo} className="skillsIcons" alt="React Icon" />
             </span>
           </div>
           <div className="col-12">
             <span>
-              <img src={Redis} className="skillsIcons" />
+              <img src={Java} className="skillsIcons" alt="Java Icon" />
             </span>
             <span>
-              <img src={MySQL} className="skillsIcons" />
+              <img src={Python} className="skillsIcons" alt="Python Icon"/>
+            </span>
+          </div>
+          <div className="col-12">
+            <span>
+              <img src={Redis} className="skillsIcons" alt="Redis Icon" />
+            </span>
+            <span>
+              <img src={MySQL} className="skillsIcons" alt="MySQL Icon" />
             </span>
           </div>
         </div>

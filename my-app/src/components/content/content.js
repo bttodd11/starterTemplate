@@ -1,4 +1,4 @@
-import {React, useState} from 'react';
+import {React} from 'react';
 import Projects from '../projects/projects';
 import Skills from '../skills/skills';
 import Experience from '../experience/experience';

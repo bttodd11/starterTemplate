@@ -11,19 +11,19 @@ const Projects = () => {
           <div class="row projectContainer">
             <div class="col-sm-12 col-md-12 project">
                <p className="projectTitle">Title of Project</p>
-               <img src={ImagePlaceHolder} className='projectPlaceHolder' /> 
+               <img src={ImagePlaceHolder} className='projectPlaceHolder' alt="Project 1" /> 
                <p className="projectSubTitle">Description : </p><span className="projectText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat erat a consequat dictum. Morbi non quam lobortis, aliquet dolor non, facilisis sem. Mauris molestie neque sit amet viverra porttitor. Nullam sodales hendrerit purus, et fringilla purus gravida quis. Vestibulum ac aliquam quam. Mauris euismod enim sit amet sem fringilla.</span>
             </div>
             <div id="divider"></div>
             <div class="col-sm-12 col-md-12 project">
             <p className="projectTitle">Title of Project</p>
-               <img src={ImagePlaceHolder} className='projectPlaceHolder' /> 
+               <img src={ImagePlaceHolder} className='projectPlaceHolder' alt="Project 2" /> 
                <p className="projectSubTitle">Description : </p><span className="projectText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat erat a consequat dictum. Morbi non quam lobortis, aliquet dolor non, facilisis sem. Mauris molestie neque sit amet viverra porttitor. Nullam sodales hendrerit purus, et fringilla purus gravida quis. Vestibulum ac aliquam quam. Mauris euismod enim sit amet sem fringilla.</span>
             </div>
             <div id="divider"></div>
             <div class="col-sm-12 col-md-12 project">
             <p className="projectTitle">Title of Project</p>
-               <img src={ImagePlaceHolder} className='projectPlaceHolder' /> 
+               <img src={ImagePlaceHolder} className='projectPlaceHolder' alt="Project 3" /> 
                <p className="projectSubTitle">Description : </p><span className="projectText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam feugiat erat a consequat dictum. Morbi non quam lobortis, aliquet dolor non, facilisis sem. Mauris molestie neque sit amet viverra porttitor. Nullam sodales hendrerit purus, et fringilla purus gravida quis. Vestibulum ac aliquam quam. Mauris euismod enim sit amet sem fringilla.</span>
             </div>
             <div id="divider"></div>

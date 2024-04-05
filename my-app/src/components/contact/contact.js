@@ -13,14 +13,16 @@ return(
    <div>
    <div className="contactWrapper">
    <p id='contentTitle'>Contact</p>
-   <p className='contactTitle'>Wanna Collab ?</p>
-   <p>Wanna work together ? Feel free to reach out and I will get back with you as soon as possible.</p>
-   <p className='contactTitle'>Social Media</p>
-<span><img src={Github} className='socialIcons' /></span>
-<span><img src={Instagram} className='socialIcons' /></span>
-<span><img src={LinkedIn} className='socialIcons' /></span>
-<span><img src={Medium} className='socialIcons' /></span>
-<span><img src={Twitter} className='socialIcons' /></span>
+   <p className='contactTitle collab'>Wanna Collab ?</p>
+   <p className='contactText'>Wanna work together ? Feel free to reach out and I will get back with you as soon as possible.</p>
+   <div className='socialSection'>
+   <p className='contactTitle social'>Social Media</p>
+<span><img src={Github} className='socialIcons' alt='Githunb Icon' /></span>
+<span><img src={Instagram} className='socialIcons' alt='Instagram Icon' /></span>
+<span><img src={LinkedIn} className='socialIcons' alt='LinkedIn' /></span>
+<span><img src={Medium} className='socialIcons' alt='Medium' /></span>
+<span><img src={Twitter} className='socialIcons' alt= "Twitter"/></span>
+</div>
    </div>
    </div>
 )

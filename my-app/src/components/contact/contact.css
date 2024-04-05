@@ -6,11 +6,39 @@
     margin-bottom: 20%;
 }
 
+.contactTitle {
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 8px;
+}
 /* Desktop */
 @media (min-width: 992px) {
 
+  .contactTitle {
+    margin-left: 2%;
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: 2px;
+  }
+  .collab {
+    text-align: center;
+    width: 20%;
+  }
+  .contactText {
+    margin-left: 2%;
+    width: 20%;
+    text-align: center;
+  }
+
+  .socialSection {
+    text-align: center;
+  }
+  .socialIcons {
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 5%;
+}
+
   
-
-
 
 }

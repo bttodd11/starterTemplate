@@ -4,16 +4,23 @@
     margin-right: 5%;
     margin-left: 10%;
     margin-top: 5%;
+    content: url(../image/companyLogo.png);
 }
 .companyText {
-    font-size: 12px;
+    font-size: 20px;
     font-weight: bold;
     text-align: left;
-    margin-top: 4%;
+    margin-top: 10%;
 }
 .experienceText {
     text-align: left;
-    font-size: 8px;
+    font-size: 10px;
+}
+.experienceTitle {
+    font-size: 14px;
+    text-align: left;
+    font-weight:500;
+    letter-spacing: 2px;
 }
 .imageDiv {
     width: 100%;
@@ -22,6 +29,7 @@
     display: block;
     overflow: hidden;
     margin-bottom: 5%;
+    margin: auto;
 }
 .imageContainer {
     display: block;
@@ -30,12 +38,50 @@
     margin-top: 15%;
     margin-bottom: 15%;
 }
+.experienceDescription {
+    padding-top: 15%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
 
 /* Desktop */
 @media (min-width: 992px) {
 
-  
 
+    .companyText{
+        font-size: 30px;
+        letter-spacing: 10px;
+    }
+    
+    .experienceText {
+        font-size: 18px;
+        letter-spacing: 4px;
+        font-weight: 500;
+        font-style: italic;
+    }
+    .experienceTitle {
+        font-size: 14px;
+        font-weight:500;
+        letter-spacing: 4px;
+    }
+    .experienceDescription {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .companyLogo {
+        height: 300px;
+        width: 300px;
+        float: left;
+        margin-right: 5%;
+        margin-left: 10%;
+        margin-top: 5%;
+        content: url(../image/companyLogoDesktop.png);
+
+    }
+    .exp {
+        margin: 0;
+    }
 
 
 }
