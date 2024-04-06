@@ -5,38 +5,50 @@
     margin-right: 2%;
     margin-bottom: 20%;
 }
+.socialSection {
+  text-align: center;
+  margin: auto;
+height: 200px;
+}
+.contactSection {
+  text-align: center;
+  margin: auto;
+  height: 200px;
 
+}
 .contactTitle {
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 900;
   letter-spacing: 8px;
+  color: #284A3F;
+  font-family: "Inknut Antiqua", serif;
+  text-align: center;
+}
+.contactText {
+  text-align: center;
+  font-family: "M PLUS Rounded 1c", sans-serif;
 }
 /* Desktop */
 @media (min-width: 992px) {
 
   .contactTitle {
-    margin-left: 2%;
     font-weight: 800;
     font-size: 30px;
     letter-spacing: 2px;
-  }
-  .collab {
-    text-align: center;
-    width: 20%;
+    color: #284A3F;
+    font-family: "Inknut Antiqua", serif;
+
   }
   .contactText {
     margin-left: 2%;
-    width: 20%;
     text-align: center;
-  }
 
-  .socialSection {
-    text-align: center;
   }
   .socialIcons {
     margin-left: 1%;
     margin-right: 1%;
     margin-bottom: 5%;
+
 }
 
   

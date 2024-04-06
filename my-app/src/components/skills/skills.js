@@ -12,28 +12,42 @@ const Skills = () => {
     <div className="skillWrapper">
       <p id="contentTitle">Skills</p>
       <div className="skills">
+      <div className="col-12 skillBox">
         <p className="skillsLabel">
           Front-End :{" "}
+          </p>
           <span className="skillsText">
             React, Angular, Vue, Bootstrap, Sass,{" "}
           </span>
-        </p>
+    </div>
+    <div className="col-12 skillBox">
+    <div className="col-12">
         <p className="skillsLabel">
           Back-End :{" "}
+          </p>
           <span className="skillsText">
             Java, Python, Spring, Springboot, C#, Kotlin, Node.js
           </span>
-        </p>
+          </div>
+          </div>
+          <div className="col-12 skillBox">
+          <div className="col-12">
         <p className="skillsLabel">
           Database :{" "}
+          </p>
           <span className="skillsText">MySQL, MongoDB, Redis, PostgreSQL</span>
-        </p>
+          </div>
+          </div>
+          <div className="col-12 skillBox">
+          <div className="col-12">
         <p className="skillsLabel">
           Other :{" "}
+          </p>
           <span className="skillsText">
             Google Cloud, Amazon Web Services, Big Query, Compute Engine
           </span>
-        </p>
+          </div>
+          </div>
       </div>
       <div className="logos">
         <div className="row justify-content-end">

@@ -1,6 +1,11 @@
 .projectWrapper {
   padding-bottom: 10%;
 }
+.box {
+  filter: drop-shadow(
+    1px 2px 8px var(--shadow-color)
+  )
+}
 .projectPlaceHolder {
     width: 200px;
     height: 200px;
@@ -8,28 +13,34 @@
     margin-bottom: 15%;
     margin-left: auto;
     margin-right: auto;
+    --shadow-color: #284A3F;
 }
 .projectSubTitle {
   text-align: left;
   display: inline;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 900;
 }
 .projectText {
-    /* text-align: left; */
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  margin-bottom: 2px;
 }
 .projectTitle {
   font-size: 25px;
   letter-spacing: 10px;
   font-weight: 600;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  text-align: center;
+
 }
 
 .project {
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin: 5%;
 }
 #divider {
   height: 2px;
   width: 80%;
-  background: blue;
+  background: #284A3F;
   background: linear-gradient(90deg, hsl(0, 0%, 20%), hsl(0, 0%, 70%), hsl(0, 0%, 20%));
   margin-right: auto;
   margin-left: auto;
@@ -39,7 +50,7 @@
 @media (min-width: 992px) {
 
   .projectContainer {
-    width: 70%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -53,5 +64,8 @@
     margin-right: auto;
 }
 
+.projectText {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
 
 }

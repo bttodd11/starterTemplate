@@ -3,23 +3,27 @@
     letter-spacing: 5px;
 }
 .heroTitle {
-    font-size: 40px;
+    font-size: 25px;
     text-align: center;
     font-family: "Inknut Antiqua", serif;
     font-style: normal;
-    font-weight:100
+    font-weight:300;
+    color: #E2D7D7
+    
 }
 .cityTitle{
     font-family: "Inknut Antiqua", serif;
     font-size: 20px;
     font-style: normal;
     font-weight: bolder;
+    color: #E2D7D7
 }
 .stateTitle{
     font-family: "Inknut Antiqua", serif;
     font-size: 20px;
     font-style: normal;
     font-weight: bolder;
+    color: #E2D7D7
 }
 .portfolioImage {
     display: block;
@@ -28,7 +32,7 @@
     width: 75%;
     height: 75%;
     margin-top: 5%;
-    --shadow-color: hsl(220deg 60% 50%);
+    --shadow-color: #284A3F;
     border-radius: 10px;
 }
 
@@ -51,7 +55,10 @@
         width: 35%;
         height: 35%;
         margin-top: 2%;
-        --shadow-color: hsl(220deg 60% 50%);
+        --shadow-color: #284A3F;
         border-radius: 10px;
+    }
+    .projectTitle {
+        text-align: center;
     }
 }

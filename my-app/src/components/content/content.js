@@ -18,6 +18,8 @@ const Content = (section) => {
             return <Experience />
          case "Contact":
             return <Contact />
+         default:
+            return <Projects />
       }
 }
 

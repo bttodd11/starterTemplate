@@ -1,10 +1,12 @@
 .headers {
     margin-top: 20%;
 }
+
 .headerTitle {
-    font-size: 16px;
-    font-family: "Bungee Hairline", sans-serif;
+    font-size: 14px;
+    font-family: "Inknut Antiqua", serif;
     font-weight: bolder;
+    color: #E2D7D7
 }
 
 /* Desktop */
@@ -13,19 +15,22 @@
     .headers {
         margin-top: 3%;
     }
+
     .headerTitle {
-        font-size: 20px;
+        font-size: 26px;
         letter-spacing: 10px;
         font-weight: bolder;
     }
-    
+
     a {
-        color: black;
+        color: #E2D7D7
     }
+
     a :hover {
-        color: black;
+        color: #E2D7D7
     }
+
     a :visited {
-        color: black;
+        color: #E2D7D7
     }
 }
