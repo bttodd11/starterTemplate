@@ -77,7 +77,7 @@
         width: 75%;
         text-align: left;
         margin-left: 5%;
-        padding-top: 12%;
+        padding-top: 15%;
     }
     .companyLogo {
         height: 300px;
@@ -88,6 +88,4 @@
     .exp {
         margin: 0;
     }
-
-
 }
