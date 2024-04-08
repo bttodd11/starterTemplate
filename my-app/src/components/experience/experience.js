@@ -5,7 +5,6 @@ import "../experience/experience.css";
 const Experience = () => {
   return (
     <div className="experienceWrapper">
-      <p id="contentTitle">Experience</p>
       <div className="companyContainer">
         <div className="imageContainer">
           <img className="companyLogo box" alt="Company Logo 1" />

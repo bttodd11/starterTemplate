@@ -10,14 +10,14 @@
 }
 
 /* Desktop */
-@media (min-width: 992px) {
+@media (min-width: 999px) {
 
     .headers {
         margin-top: 3%;
     }
 
     .headerTitle {
-        font-size: 26px;
+        font-size: 22px;
         letter-spacing: 10px;
         font-weight: bolder;
     }

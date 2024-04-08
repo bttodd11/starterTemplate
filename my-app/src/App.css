@@ -12,17 +12,6 @@
       1px 2px 8px var(--shadow-color)
     )
 }
-
-#contentTitle{
-    font-size: 35px;
-    letter-spacing: 10px;
-    margin-bottom: 20%;
-    text-align: center;
-    font-family: "Inknut Antiqua", serif;
-    color: #284A3F;
-    
-}
-
 /* Desktop */
 @media (min-width: 992px) {
     #contentSection {

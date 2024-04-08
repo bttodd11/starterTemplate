@@ -10,7 +10,6 @@ const Contact = () => {
   return (
     <div>
       <div className="contactWrapper">
-      <p id="contentTitle">Contact</p>
         <div class="container">
           <div class="row">
             <div className="col-sm-12 col-md-3 contactSection">

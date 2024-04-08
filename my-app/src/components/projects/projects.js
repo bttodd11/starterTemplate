@@ -5,7 +5,6 @@ import "../projects/projects.css";
 const Projects = () => {
   return (
     <div>
-      <p id="contentTitle">Projects</p>
       <div className="projectWrapper">
         <div class="container-fluid text-center">
           <div class="row projectContainer">

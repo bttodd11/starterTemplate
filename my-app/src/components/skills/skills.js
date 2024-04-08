@@ -10,7 +10,6 @@ import "../skills/skills.css";
 const Skills = () => {
   return (
     <div className="skillWrapper">
-      <p id="contentTitle">Skills</p>
       <div className="skills">
       <div className="col-12 skillBox">
         <p className="skillsLabel">
@@ -21,7 +20,7 @@ const Skills = () => {
           </span>
     </div>
     <div className="col-12 skillBox">
-    <div className="col-12">
+    <div className="col-sm-12">
         <p className="skillsLabel">
           Back-End :{" "}
           </p>
