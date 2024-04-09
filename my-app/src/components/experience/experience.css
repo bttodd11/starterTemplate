@@ -5,7 +5,7 @@
     content: url(../image/companyLogo.png);
     --shadow-color: #284A3F;
 }
-.box {
+.logoBox {
     filter: drop-shadow(
       1px 2px 8px var(--shadow-color)
     )

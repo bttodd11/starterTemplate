@@ -1,48 +1,3 @@
-.projectWrapper {
-  padding-bottom: 10%;
-}
-.box {
-  filter: drop-shadow(
-    1px 2px 8px var(--shadow-color)
-  )
-}
-.projectContainer {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.projectPlaceHolder {
-    width: 200px;
-    height: 200px;
-    display: block;
-    margin-bottom: 15%;
-    margin-left: auto;
-    margin-right: auto;
-    --shadow-color: #284A3F;
-}
-.projectSubTitle {
-  text-align: left;
-  display: inline;
-  font-family: "M PLUS Rounded 1c", sans-serif;
-  font-weight: 900;
-}
-.projectText {
-  font-family: "M PLUS Rounded 1c", sans-serif;
-  margin-bottom: 2px;
-  font-size: 10px;
-}
-.projectTitle {
-  letter-spacing: 10px;
-  font-weight: 600;
-  font-family: "M PLUS Rounded 1c", sans-serif;
-  text-align: center;
-  margin-bottom: 5% 0% 5% 0%
-
-}
-.project {
-  margin: 10% 0% 15% 0%;
-  text-align: left;
-}
 #divider {
   height: 2px;
   width: 80%;
@@ -52,13 +7,61 @@
   margin-left: auto;
 }
 
+#projectWrapper {
+  padding-bottom: 10%;
+}
+
+.imageBox {
+  filter: drop-shadow(1px 2px 8px var(--shadow-color))
+}
+
+.projectSectionContainer {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projectPlaceHolder {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-bottom: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  --shadow-color: #284A3F;
+}
+
+.projectSubTitle {
+  text-align: left;
+  display: inline;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 900;
+}
+
+.projectText {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  margin-bottom: 2px;
+  font-size: 10px;
+}
+
+.projectTitle {
+  letter-spacing: 10px;
+  font-weight: 600;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  text-align: center;
+  margin-bottom: 5% 0% 5% 0%
+}
+
+.individualProjectPod {
+  margin: 10% 0% 15% 0%;
+  text-align: left;
+}
+
 /* Desktop */
 @media (min-width: 992px) {
 
-  .projectContainer {
+  .projectSectionContainer {
     width: 55%;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .projectPlaceHolder {
@@ -66,13 +69,10 @@
     height: 400px;
     display: block;
     margin-bottom: 10%;
-    margin-left: auto;
-    margin-right: auto;
-}
+  }
 
-.projectText {
-  font-family: "M PLUS Rounded 1c", sans-serif;
-  font-size: 14px;
-}
+  .projectText {
+    font-size: 14px;
+  }
 
 }

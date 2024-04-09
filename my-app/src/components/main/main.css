@@ -1,30 +1,29 @@
-#heroSection {
+#mainSection {
     text-align: center;
-    letter-spacing: 5px;
 }
-.heroTitle {
+
+.mainTitle {
     font-size: 25px;
     text-align: center;
     font-family: "Inknut Antiqua", serif;
-    font-style: normal;
-    font-weight:300;
+    font-weight: 300;
     color: #E2D7D7
-    
 }
-.cityTitle{
+
+.cityTitle {
     font-family: "Inknut Antiqua", serif;
     font-size: 20px;
-    font-style: normal;
     font-weight: bolder;
     color: #E2D7D7
 }
-.stateTitle{
+
+.stateTitle {
     font-family: "Inknut Antiqua", serif;
     font-size: 20px;
-    font-style: normal;
     font-weight: bolder;
     color: #E2D7D7
 }
+
 .portfolioImage {
     display: block;
     margin-left: auto;
@@ -37,27 +36,22 @@
 }
 
 .box {
-    filter: drop-shadow(
-      1px 2px 8px var(--shadow-color)
-    )
+    filter: drop-shadow(1px 2px 8px var(--shadow-color))
 }
 
 /* Desktop */
 @media (min-width: 992px) {
 
-    .heroTitle {
+    .mainTitle {
         padding-top: 2%;
     }
+
     .portfolioImage {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
         width: 35%;
         height: 35%;
         margin-top: 2%;
-        --shadow-color: #284A3F;
-        border-radius: 10px;
     }
+
     .projectTitle {
         text-align: center;
     }

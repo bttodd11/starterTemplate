@@ -1,17 +1,19 @@
 import React from 'react';
 import ImagePlaceHolder from '../image/imagePlaceHolder.jpeg'
-import "./hero.css";
+import Headers from '../headers/headers';
+import "./main.css";
 
-const Hero = () => {
+const Main = () => {
 
    return(
-      <div id="heroSection">
-         <p className='heroTitle'>FirstName.LastName</p>
+      <div id="mainSection">
+         <p className='mainTitle'>FirstName.LastName</p>
          <span className='cityTitle'>City,</span><span className='stateTitle'>State</span>
          <img src={ImagePlaceHolder} className='portfolioImage box' alt='Portfolio' /> 
+         < Headers />
       </div>
    )
    };
 
 
-export default Hero;
+export default Main;

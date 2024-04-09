@@ -1,4 +1,4 @@
-.headers {
+#headersSection {
     margin-top: 20%;
 }
 
@@ -12,8 +12,10 @@
 /* Desktop */
 @media (min-width: 999px) {
 
-    .headers {
+    #headersSection {
         margin-top: 3%;
+        font-size: 22px;
+        font-weight: bolder;
     }
 
     .headerTitle {
