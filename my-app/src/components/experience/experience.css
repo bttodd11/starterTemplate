@@ -1,11 +1,10 @@
-
 .companyLogo {
     float: left;
     margin: 5% 5% 0 5%;
     content: url(../image/companyLogo.png);
     --shadow-color: #284A3F;
 }
-.logoBox {
+.companyLogoBox {
     filter: drop-shadow(
       1px 2px 8px var(--shadow-color)
     )
@@ -17,10 +16,11 @@
     margin-top: 5%;
     font-family: "Inknut Antiqua", serif;
 }
-.experienceText {
+.experienceDates {
     text-align: left;
     font-size: 12px;
     font-family: "M PLUS Rounded 1c", sans-serif;
+    font-style: italic;
 }
 .experienceTitle {
     font-size: 14px;
@@ -29,9 +29,6 @@
     letter-spacing: 2px;
     font-family: "M PLUS Rounded 1c", sans-serif;
     font-style: italic;
-}
-.imageDiv {
-    width: 100%;
 }
 .companyContainer {
     display: block;
@@ -42,51 +39,45 @@
 .imageContainer {
     display: block;
 }
-.exp {
+.expDivider {
     margin-top: 15%;
     margin-bottom: 15%;
 }
 .experienceDescription {
     padding-top: 10%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 0 5% 0 5%;
     font-family: "M PLUS Rounded 1c", sans-serif;
 }
 
 /* Desktop */
 @media (min-width: 992px) {
-
-
     .companyText{
         font-size: 30px;
         letter-spacing: 10px;
     }
     
-    .experienceText {
+    .experienceDates {
         font-size: 18px;
         letter-spacing: 4px;
         font-weight: 500;
-        font-style: italic;
     }
     .experienceTitle {
-        font-size: 14px;
-        font-weight:500;
         letter-spacing: 4px;
     }
     .experienceDescription {
-        width: 75%;
+        width: 90%;
         text-align: left;
-        margin-left: 5%;
+        margin-right: 0%;
         padding-top: 15%;
         padding-bottom: 2%;
+        font-size: 18px;
     }
-    .companyLogo {
+    .companyLogoBox {
         height: 300px;
         width: 300px;
-        float: left;
         content: url(../image/companyLogoDesktop.png);
     }
-    .exp {
+    .expDivider {
         margin: 0;
     }
 }

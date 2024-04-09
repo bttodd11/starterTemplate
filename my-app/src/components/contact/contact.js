@@ -13,7 +13,7 @@ const Contact = () => {
         <div class="container">
           <div class="row">
             <div className="col-sm-12 col-md-3 contactSection">
-              <p className="contactTitle">Wanna Collab ?</p>
+              <p className="contactTitle">Wanna Collab?</p>
               <p className="contactText">
                 Wanna work together ? Feel free to reach out and I will get back
                 with you as soon as possible.

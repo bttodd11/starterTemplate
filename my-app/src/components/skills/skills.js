@@ -9,50 +9,50 @@ import "../skills/skills.css";
 
 const Skills = () => {
   return (
-    <div className="skillWrapper">
-      <div className="skills">
-      <div className="col-12 skillBox">
-        <p className="skillsLabel">
-          Front-End :{" "}
+    <div id="skillWrapper">
+      <div className="skillsSection">
+        <div className="col-12 individualSkillsPod">
+          <p className="skillsLabel">
+            Front-End :{" "}
           </p>
           <span className="skillsText">
             React, Angular, Vue, Bootstrap, Sass,{" "}
           </span>
-    </div>
-    <div className="col-12 skillBox">
-    <div className="col-sm-12">
-        <p className="skillsLabel">
-          Back-End :{" "}
-          </p>
-          <span className="skillsText">
-            Java, Python, Spring, Springboot, C#, Kotlin, Node.js
-          </span>
+        </div>
+        <div className="col-12 individualSkillsPod">
+          <div className="col-sm-12">
+            <p className="skillsLabel">
+              Back-End :{" "}
+            </p>
+            <span className="skillsText">
+              Java, Python, Spring, Springboot, C#, Kotlin, Node.js
+            </span>
           </div>
-          </div>
-          <div className="col-12 skillBox">
+        </div>
+        <div className="col-12 individualSkillsPod">
           <div className="col-12">
-        <p className="skillsLabel">
-          Database :{" "}
-          </p>
-          <span className="skillsText">MySQL, MongoDB, Redis, PostgreSQL</span>
+            <p className="skillsLabel">
+              Database :{" "}
+            </p>
+            <span className="skillsText">MySQL, MongoDB, Redis, PostgreSQL</span>
           </div>
-          </div>
-          <div className="col-12 skillBox">
+        </div>
+        <div className="col-12 individualSkillsPod">
           <div className="col-12">
-        <p className="skillsLabel">
-          Other :{" "}
-          </p>
-          <span className="skillsText">
-            Google Cloud, Amazon Web Services, Big Query, Compute Engine
-          </span>
+            <p className="skillsLabel">
+              Other :{" "}
+            </p>
+            <span className="skillsText">
+              Google Cloud, Amazon Web Services, Big Query, Compute Engine
+            </span>
           </div>
-          </div>
+        </div>
       </div>
       <div className="logos">
         <div className="row justify-content-end">
           <div className="col-12">
             <span>
-              <img src={Angular} className="skillsIcons" alt="Angular Icon"/>
+              <img src={Angular} className="skillsIcons" alt="Angular Icon" />
             </span>
             <span>
               <img src={ReactLogo} className="skillsIcons" alt="React Icon" />
@@ -63,7 +63,7 @@ const Skills = () => {
               <img src={Java} className="skillsIcons" alt="Java Icon" />
             </span>
             <span>
-              <img src={Python} className="skillsIcons" alt="Python Icon"/>
+              <img src={Python} className="skillsIcons" alt="Python Icon" />
             </span>
           </div>
           <div className="col-12">

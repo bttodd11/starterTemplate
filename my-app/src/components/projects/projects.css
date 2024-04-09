@@ -36,6 +36,7 @@
   display: inline;
   font-family: "M PLUS Rounded 1c", sans-serif;
   font-weight: 900;
+  font-size: 12px;
 }
 
 .projectText {
@@ -62,6 +63,11 @@
 
   .projectSectionContainer {
     width: 55%;
+  }
+
+  .projectSubTitle{
+    font-size: 16px;
+    letter-spacing: 2px;
   }
 
   .projectPlaceHolder {

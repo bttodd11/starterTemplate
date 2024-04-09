@@ -2,15 +2,20 @@
     padding-bottom: 10%;
     width: 100%;
     font-family: "M PLUS Rounded 1c", sans-serif;
-
 }
+.skillsSection {
+    text-align: left;
+    margin-left: 2%;
+}
+
 .skillsLabel {
     text-align: left;
     font-size: 13px;
     font-weight: 800;
     display: inline;
 }
-.skillBox {
+
+.individualSkillsPod {
     margin-bottom: 2%;
     margin-left: 2%;
 }
@@ -27,10 +32,8 @@
 @media (min-width: 992px) {
 
     .skillsLabel {
-        text-align: left;
         padding-left: 3%;
         font-size: 18px;
-        font-weight: 800;
         line-height: 50px;
     }
 
@@ -38,7 +41,7 @@
         font-size: 18px;
     }
 
-    .skills {
+    .skillsSection {
         width: 65%;
         display: inline-block;
         vertical-align: middle;
