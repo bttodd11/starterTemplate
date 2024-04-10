@@ -22,23 +22,28 @@ const Contact = () => {
             <div className="col-sm-12 col-md-3 socialSection">
               <p className="contactTitle">Social Media</p>
               <span>
-                <img src={Github} className="socialIcons" alt="Githunb Icon" />
+                {/* Add your Github link here */}
+                <a href="#"><img src={Github} className="socialIcons" alt="Githunb Icon" /> </a>
               </span>
               <span>
-                <img
+                {/* Add your Instagram link here */}
+                <a href="#"><img
                   src={Instagram}
                   className="socialIcons"
                   alt="Instagram Icon"
-                />
+                /> </a>
               </span>
               <span>
-                <img src={LinkedIn} className="socialIcons" alt="LinkedIn" />
+                {/* Add your LinkedIn link here */}
+                <a href="#"><img src={LinkedIn} className="socialIcons" alt="LinkedIn" /></a>
               </span>
               <span>
-                <img src={Medium} className="socialIcons" alt="Medium" />
+                {/* Add your Medium link here */}
+                <a href="#"><img src={Medium} className="socialIcons" alt="Medium" /> </a>
               </span>
               <span>
-                <img src={Twitter} className="socialIcons" alt="Twitter" />
+                {/* Add your Twitter link here */}
+                <a href="#"> <img src={Twitter} className="socialIcons" alt="Twitter" />/</a>
               </span>
             </div>
           </div>

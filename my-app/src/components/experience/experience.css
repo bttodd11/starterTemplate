@@ -45,8 +45,9 @@
 }
 .experienceDescription {
     padding-top: 10%;
-    margin: 0 5% 0 5%;
+    margin: 10% 5% 0 5%;
     font-family: "M PLUS Rounded 1c", sans-serif;
+    text-align: left;
 }
 
 /* Desktop */
@@ -68,6 +69,7 @@
         width: 90%;
         text-align: left;
         margin-right: 0%;
+        margin-top: 0%;
         padding-top: 15%;
         padding-bottom: 2%;
         font-size: 18px;
