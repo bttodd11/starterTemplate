@@ -7,21 +7,22 @@
     text-align: center;
     font-family: "Inknut Antiqua", serif;
     font-weight: 300;
-    color: #E2D7D7
+    color: #284A3F;
+    padding-top: 5%;
 }
 
 .cityTitle {
     font-family: "Inknut Antiqua", serif;
     font-size: 20px;
     font-weight: bolder;
-    color: #E2D7D7
+    color: #284A3F;
 }
 
 .stateTitle {
     font-family: "Inknut Antiqua", serif;
     font-size: 20px;
     font-weight: bolder;
-    color: #E2D7D7
+    color: #284A3F;
 }
 
 .portfolioImage {

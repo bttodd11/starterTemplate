@@ -1,3 +1,6 @@
+#experienceWrapper {
+    padding-bottom: 10%;
+}
 .companyLogo {
     float: left;
     margin: 5% 5% 0 5%;
@@ -15,6 +18,7 @@
     text-align: left;
     margin-top: 5%;
     font-family: "Inknut Antiqua", serif;
+    color: #284A3F;
 }
 .experienceDates {
     text-align: left;

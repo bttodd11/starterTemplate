@@ -1,7 +1,9 @@
 #skillWrapper {
-    padding-bottom: 10%;
+    padding-bottom: 20%;
+    padding-top: 10%;
     width: 100%;
     font-family: "M PLUS Rounded 1c", sans-serif;
+    line-height: 30px;
 }
 .skillsSection {
     text-align: left;
@@ -13,6 +15,7 @@
     font-size: 13px;
     font-weight: 800;
     display: inline;
+    color: #284A3F;
 }
 
 .individualSkillsPod {
@@ -23,7 +26,6 @@
 .skillsText {
     font-size: 12px;
 }
-
 .logos {
     display: none;
 }

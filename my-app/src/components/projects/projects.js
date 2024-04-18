@@ -1,5 +1,6 @@
 import React from "react";
 import ImagePlaceHolder from "../image/imagePlaceHolder.jpeg";
+import { motion } from "framer-motion"
 import "../projects/projects.css";
 
 const Projects = () => {
@@ -10,11 +11,13 @@ const Projects = () => {
           <div class="projectSectionContainer row">
             <div class="col-sm-12 col-md-12 individualProjectPod">
               <p className="projectTitle">Title of Project</p>
+              <motion.div whileHover={{ scale: .8, opacity: .5 }}>
               <img
                 src={ImagePlaceHolder}
                 className="projectPlaceHolder imageBox"
                 alt="Project 1"
               />
+              </motion.div>
               <p className="projectSubTitle">Tech : </p>
               <span className="projectText"> Angular, MongoDB, AWS</span>
               <br />
@@ -31,11 +34,13 @@ const Projects = () => {
             <div id="divider"></div>
             <div class="col-sm-12 col-md-12 individualProjectPod">
               <p className="projectTitle">Title of Project</p>
+              <motion.div whileHover={{ scale: .8, opacity: .5 }}>
               <img
                 src={ImagePlaceHolder}
                 className="projectPlaceHolder imageBox"
                 alt="Project 2"
               />
+            </motion.div>
               <p className="projectSubTitle">Tech : </p>
               <span className="projectText"> React, SQL, Google Cloud</span>
               <br />
@@ -52,11 +57,13 @@ const Projects = () => {
             <div id="divider"></div>
             <div class="col-sm-12 col-md-12 individualProjectPod">
               <p className="projectTitle">Title of Project</p>
+              <motion.div whileHover={{ scale: .8, opacity: .5 }}>
               <img
                 src={ImagePlaceHolder}
                 className="projectPlaceHolder imageBox"
                 alt="Project 3"
               />
+              </motion.div>
               <p className="projectSubTitle">Tech : </p>
               <span className="projectText"> Vue, MongoDB, AWS</span>
               <br />

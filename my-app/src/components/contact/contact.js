@@ -43,7 +43,7 @@ const Contact = () => {
               </span>
               <span>
                 {/* Add your Twitter link here */}
-                <a href="#"> <img src={Twitter} className="socialIcons" alt="Twitter" />/</a>
+                <a href="#"> <img src={Twitter} className="socialIcons" alt="Twitter" /></a>
               </span>
             </div>
           </div>
