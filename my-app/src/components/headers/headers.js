@@ -20,9 +20,6 @@ const Headers = () => {
 
       document.getElementById(currentSection).style.color = "#284A3F";
 
-
-
-
    }, [currentSection])
    return (
       <div id='headersSection'>

@@ -11,23 +11,21 @@ const Main = () => {
          <p className='mainTitle'>FirstName.LastName</p>
          <span className='cityTitle'>City,</span><span className='stateTitle'>State</span>
          <motion.div       
-      animate={{
-        scale: [.2, .8, .5, .3, 1],
-        rotate: [0, 0, 180, 180, 0],
-        borderRadius: ["0%", "0%", "50%", "50%", "0%"],
-        opacity: [.6, .4, .2,.7,1]
-      }}
-       transition={{
-        duration: 2,
-        ease: "easeIn",
-        times: [0, 0.2, 0.5, 0.8, 1],
-        repeat: Infinity,
-        repeatDelay: 1,
-        repeatType: "mirror"
-      }}
-  
-
-         >
+        initial={{
+         x: 0,
+       }}
+       animate={{
+         x: [100,-100]
+       }}
+      transition={{
+         type: 'tween',
+         ease: 'easeInOut',
+         repeat: Infinity,
+         repeatType: 'reverse',
+         repeatDelay: 1,
+         duration: 2,
+       }}
+  >
          <img src={ImagePlaceHolder} className='portfolioImage box' alt='Portfolio' /></motion.div>
          < Headers />
       </div>

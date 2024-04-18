@@ -3,18 +3,20 @@
 }
 
 .mainTitle {
-    font-size: 25px;
+    font-size: 23px;
     text-align: center;
     font-family: "Inknut Antiqua", serif;
     font-weight: 300;
     color: #284A3F;
     padding-top: 5%;
+    letter-spacing: 5px;
+    font-weight: bolder;
 }
 
 .cityTitle {
     font-family: "Inknut Antiqua", serif;
     font-size: 20px;
-    font-weight: bolder;
+    letter-spacing: 5px;
     color: #284A3F;
 }
 
@@ -23,6 +25,7 @@
     font-size: 20px;
     font-weight: bolder;
     color: #284A3F;
+    letter-spacing: 5px;
 }
 
 .portfolioImage {
@@ -45,6 +48,7 @@
 
     .mainTitle {
         padding-top: 2%;
+        font-size: 35px;
     }
 
     .portfolioImage {

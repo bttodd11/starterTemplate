@@ -13,9 +13,10 @@
 .skillsLabel {
     text-align: left;
     font-size: 13px;
-    font-weight: 800;
+    font-weight: 900;
     display: inline;
     color: #284A3F;
+
 }
 
 .individualSkillsPod {
@@ -33,6 +34,10 @@
 /* Desktop */
 @media (min-width: 992px) {
 
+    #skillWrapper {
+        padding-bottom: 10%;
+        padding-top: 10%;
+    }
     .skillsLabel {
         padding-left: 3%;
         font-size: 18px;
