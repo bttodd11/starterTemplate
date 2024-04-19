@@ -13,12 +13,23 @@ const Headers = () => {
    useEffect(() => {
       // This is to restart the color of the headers to their original color, then we will
       // highlight the header name that has been selected.
-      document.getElementById("Projects").style.color = "#E2D7D7";
-      document.getElementById("Skills").style.color = "#E2D7D7";
-      document.getElementById("Experience").style.color = "#E2D7D7";
-      document.getElementById("Contact").style.color = "#E2D7D7";
+      document.getElementById("Projects").style.color = "#768692";
+      document.getElementById("Skills").style.color = "#768692";
+      document.getElementById("Experience").style.color = "#768692";
+      document.getElementById("Contact").style.color = "#768692";
+      document.getElementById("Projects").style.textShadow = "none";
+      document.getElementById("Skills").style.textShadow = "none";
+      document.getElementById("Experience").style.textShadow = "none";
+      document.getElementById("Contact").style.textShadow = "none";
+      document.getElementById("Projects").style.opacity = ".4";
+      document.getElementById("Skills").style.opacity = ".4";
+      document.getElementById("Experience").style.opacity = ".4";
+      document.getElementById("Contact").style.opacity = ".4";
 
-      document.getElementById(currentSection).style.color = "#284A3F";
+
+      document.getElementById(currentSection).style.color = "white";
+      document.getElementById(currentSection).style.textShadow = "#768692 1px 0 10px"
+      document.getElementById(currentSection).style.opacity = "1";
 
    }, [currentSection])
    return (

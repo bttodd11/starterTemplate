@@ -6,7 +6,7 @@
     font-size: 13px;
     font-family: "Inknut Antiqua", serif;
     font-weight: bolder;
-    color: #E2D7D7
+    color: #768692
 }
 
 /* Desktop */
@@ -25,14 +25,14 @@
     }
 
     a {
-        color: #E2D7D7
+        color: #768692
     }
 
     a :hover {
-        color: #E2D7D7
+        color: #768692
     }
 
     a :visited {
-        color: #E2D7D7
+        color: #768692
     }
 }
