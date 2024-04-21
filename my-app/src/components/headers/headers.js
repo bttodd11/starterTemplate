@@ -1,6 +1,5 @@
 import { React, useState, useEffect } from 'react';
 import Content from '../content/content';
-import { motion } from "framer-motion"
 import '../headers/headers.css';
 
 
@@ -9,28 +8,50 @@ const Headers = () => {
    // Starting off with Project section being created. 
    let [currentSection, setCurrentSection] = useState("Projects")
 
+   let changeStylesHeadersBack = () => {
+      
+      let projectId = document.getElementById("Projects");
+      let skillsId = document.getElementById("Skills")
+      let experienceId = document.getElementById("Experience")
+      let contactId = document.getElementById("Contact")
 
+      projectId.style.color = "#768692";
+      skillsId.style.color = "#768692";
+      experienceId.style.color = "#768692";
+      contactId.style.color = "#768692";
+      projectId.style.textShadow = "none";
+      skillsId.style.textShadow = "none";
+      experienceId.style.textShadow = "none";
+      contactId.style.textShadow = "none";
+      projectId.style.opacity = ".4";
+      skillsId.style.opacity = ".4";
+      experienceId.style.opacity = ".4";
+      contactId.style.opacity = ".4";
+      projectId.style.fontFamily = "Rubik Doodle Shadow,system-ui";
+      skillsId.style.fontFamily = "Rubik Doodle Shadow,system-ui";
+      experienceId.style.fontFamily = "Rubik Doodle Shadow,system-ui";
+      contactId.style.fontFamily = "Rubik Doodle Shadow,system-ui";
+      projectId.style.fontSize = "23px";
+      skillsId.style.fontSize = "23px";
+      experienceId.style.fontSize = "23px";
+      contactId.style.fontSize = "23px";
+   }
+
+   let changeStylesCurrentSelection = (currentSection) => {
+      let currentSectionId = document.getElementById(currentSection);
+
+      currentSectionId.style.color = "#284A3F";
+      currentSectionId.style.fontFamily = "Inknut Antiqua,serif";
+      currentSectionId.style.fontStyle = "normal";
+      currentSectionId.style.fontWeight = "900";
+      currentSectionId.style.fontSize = "27px";
+      currentSectionId.style.opacity = "1";
+   }
    useEffect(() => {
       // This is to restart the color of the headers to their original color, then we will
       // highlight the header name that has been selected.
-      document.getElementById("Projects").style.color = "#768692";
-      document.getElementById("Skills").style.color = "#768692";
-      document.getElementById("Experience").style.color = "#768692";
-      document.getElementById("Contact").style.color = "#768692";
-      document.getElementById("Projects").style.textShadow = "none";
-      document.getElementById("Skills").style.textShadow = "none";
-      document.getElementById("Experience").style.textShadow = "none";
-      document.getElementById("Contact").style.textShadow = "none";
-      document.getElementById("Projects").style.opacity = ".4";
-      document.getElementById("Skills").style.opacity = ".4";
-      document.getElementById("Experience").style.opacity = ".4";
-      document.getElementById("Contact").style.opacity = ".4";
-
-
-      document.getElementById(currentSection).style.color = "white";
-      document.getElementById(currentSection).style.textShadow = "#768692 1px 0 10px"
-      document.getElementById(currentSection).style.opacity = "1";
-
+      changeStylesHeadersBack()
+      changeStylesCurrentSelection(currentSection)
    }, [currentSection])
    return (
       <div id='headersSection'>
