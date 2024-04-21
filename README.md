@@ -1,6 +1,9 @@
 # Starter Software Developer Portfolio
 
 
+[![An old rock in the desert](/my-app/src/components/image/readMeImage.jpg "Read Me Image")])
+
+
 ## Purpose 
 
 This is intended to be a starter portfolio for software developers. It will need to be customized to match the developer's skill set.
