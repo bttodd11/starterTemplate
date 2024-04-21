@@ -1,7 +1,7 @@
 # Starter Software Developer Portfolio
 
 
-[![Read Me](/src/components/image/readMeImage.jpg)])
+[![Read Me](my-app/src/components/image/imagePlaceHolder.jpeg)])
 
 
 ## Purpose 
