@@ -31,10 +31,6 @@ const Headers = () => {
       skillsId.style.fontFamily = "Rubik Doodle Shadow,system-ui";
       experienceId.style.fontFamily = "Rubik Doodle Shadow,system-ui";
       contactId.style.fontFamily = "Rubik Doodle Shadow,system-ui";
-      projectId.style.fontSize = "23px";
-      skillsId.style.fontSize = "23px";
-      experienceId.style.fontSize = "23px";
-      contactId.style.fontSize = "23px";
    }
 
    let changeStylesCurrentSelection = (currentSection) => {
@@ -44,7 +40,6 @@ const Headers = () => {
       currentSectionId.style.fontFamily = "Inknut Antiqua,serif";
       currentSectionId.style.fontStyle = "normal";
       currentSectionId.style.fontWeight = "900";
-      currentSectionId.style.fontSize = "27px";
       currentSectionId.style.opacity = "1";
    }
    useEffect(() => {
