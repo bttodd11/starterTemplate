@@ -1,6 +1,9 @@
 # Starter Software Developer Portfolio
 
 
+[![Read Me](my-app/src/components/image/readMeImage.jpg)])
+
+
 ## Purpose 
 
 This is intended to be a starter portfolio for software developers. It will need to be customized to match the developer's skill set.
