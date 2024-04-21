@@ -1,7 +1,7 @@
 # Starter Software Developer Portfolio
 
 
-[![An old rock in the desert](/my-app/src/components/image/readMeImage.jpg "Read Me Image")])
+[![Read Me](/my-app/src/components/image/readMeImage.jpg)])
 
 
 ## Purpose 
